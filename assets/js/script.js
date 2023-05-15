@@ -73,6 +73,7 @@ const aboutme=new Typed('.about_memultiple-text',{
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
+    loop:true
     
 
 
