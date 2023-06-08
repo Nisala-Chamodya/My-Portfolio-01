@@ -1,231 +1,305 @@
 #
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOME</title>
     <!--Box Icons-->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!--custom css-->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-<body>
+    />
+  </head>
+
+  <body>
     <!--header design-->
 
     <header class="header">
-        <div class="content">
+      <div class="content">
         <a href="#" class="logo"> Portfolio</a>
         <a href="#" class="logo"> Portfolio</a>
-        </div>
+      </div>
 
-        <i class='bx bx-menu' id="menu-icon"></i>
+      <i class="bx bx-menu" id="menu-icon"></i>
 
-        <nav class="navbar">
-            <a href="#home" class="active">HOME</a>
-            <a href="#about">ABOUT</a>
-            <a href="#services">SERVICES</a>
-            <a href="#portfolio">PORTFOLIO</a>
-            <a href="#contact">CONTACT</a>
-        </nav>
+      <nav class="navbar">
+        <a href="#home" class="active">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#services">SERVICES</a>
+        <a href="#portfolio">PORTFOLIO</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
     </header>
     <!--home section design-->
     <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello,It's Me</h3>
-            <h1>NISALA CHAMODYA </h1>
-            <h3>And I'm a <span class="multiple-text main-span-color"></span></h3>
-            <p>I enjoy designing tech websites and digital products.</p>
-            <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-            </div>
-            <a href="#" class="btn">Downloard CV</a>&nbsp;&nbsp;
-            <a href="#" class="btn">Hire me</a>
-            
+      <div class="home-content">
+        <h3>Hello,It's Me</h3>
+        <h1>NISALA CHAMODYA</h1>
+        <h3>And I'm a <span class="multiple-text main-span-color"></span></h3>
+        <audio src="assets/audio/Computer-keyboard-fast.mp3" id="audio"></audio>
+        <p>I enjoy designing tech websites and digital products.</p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/prince.nc.965/"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://github.com/Nisala-Chamodya"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/prince.nc.965/"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/nisala-chamodya-355816251/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
         </div>
-        <div class="home-img">
-           <img src="assets/images/home1 (3).png" alt="home.jpg">
-        </div>
+        <a href="#" class="btn">Downloard CV</a>&nbsp;&nbsp;
+        <a href="#contact" class="btn">Hire me</a>
+      </div>
+      <div class="home-img">
+        <img src="assets/images/home1 (3).png" alt="home.jpg" />
+      </div>
     </section>
     <!--about section design-->
-    <section class=" about" id="about">
-            <div class="about-content">
-                <div class="discription">
-                    <h2 class="heading">About <span class="main-span-color">Me</span></h2>
-                    <br><br><br>
-                    <div class="about-img">
-                        <img src="assets/images/homepic.jpg" alt="aboutme.jpg">
-                    </div>
-                    <br><br><br>
-                    <h3> <span class="about_memultiple-text main-span-color"></span></h3>
-                    <br> <br><br><br>
-                </div>
-                <div class="personal-info-content">
-                    <h2 class="second-heading"> Personal <span class="infos"> INFOS</span> </h2>
-                    <div class="personalInfo">
-                        <div><span>Name:</span><span> <br> Nisala Chamodya Sooriyaarachchi</span></div>
-                        <div><span>Age:</span><span> <br> 21</span></div>
-                        <div><span>Email:</span><span> <br> nisalachamodya63@gmail.com</span></div>
-                        <div><span>Address:</span><span> <br> Bandaragama</span></div>
-                        <div><span>Nationality:</span><span> <br> Sri Lankan</span></div>
-                        <div><span>TelephoneNo:</span><span> <br> 071-5946623</span></div>
-                    </div>
-                    <div class="educationInfo">
-                        <br>
-                        <h2 class="second-heading"> Education <span class="infos"> INFOS</span> </h2>
-                        <br>
-                        <div><span>Education:</span><span class="educationtype"></span></div>
-                    </div>
-
-                    <br><br>
-                    <!--Skil Section-->
-                    <h2 class="second-heading"> My <span class="infos"> Skils</span> </h2>
-                    <br><br>
-
-                    <div class="container">
-                        <div class="card">
-                            <div class="percent" style="--clr:#1f51ff;--num:85">
-                                <div class="dot"></div>
-                                <svg>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                </svg>
-                                <div class="number">
-                                    <h2>85 <span>%</span></h2>
-                                    <p>HTML</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-
-                            <div class="percent" style="--clr:#1f51ff;--num:20">
-                                <div class="dot"></div>
-                                <svg>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                </svg>
-                                <div class="number">
-                                    <h2>20 <span>%</span></h2>
-                                    <p>CSS</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="percent" style="--clr:#1f51ff;--num:60">
-                                <div class="dot"></div>
-                                <svg>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                </svg>
-                                <div class="number">
-                                    <h2>60 <span>%</span></h2>
-                                    <p>JAVA</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="percent" style="--clr:#1f51ff;--num:70">
-                                <div class="dot"></div>
-                                <svg>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                    <circle cx="70" cy="70" r="70"></circle>
-                                </svg>
-                                <div class="number">
-                                    <h2>70 <span>%</span></h2>
-                                    <p>My sql</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!---End Skil Section-->
-
-
-                </div>
-
-
+    <section class="about" id="about">
+      <div class="about-content">
+        <div class="discription">
+          <h2 class="heading">About <span class="main-span-color">Me</span></h2>
+          <br /><br /><br />
+          <div class="about-img">
+            <img
+              src="assets/images/aboutme.jpg"
+              alt="aboutme.jpg"
+              width="10px"
+              height="10px"
+            />
+          </div>
+          <br /><br /><br />
+          <h3><span class="about_memultiple-text main-span-color"></span></h3>
+          <br />
+          <br /><br /><br />
+        </div>
+        <div class="personal-info-content">
+          <h2 class="second-heading">
+            Personal <span class="infos"> INFOS</span>
+          </h2>
+          <div class="personalInfo">
+            <div>
+              <span>Name:</span
+              ><span>
+                <br />
+                Nisala Chamodya Sooriyaarachchi</span
+              >
             </div>
-    </section>
+            <div>
+              <span>Age:</span
+              ><span>
+                <br />
+                21</span
+              >
+            </div>
+            <div>
+              <span>Email:</span
+              ><span>
+                <br />
+                nisalachamodya63@gmail.com</span
+              >
+            </div>
+            <div>
+              <span>Address:</span
+              ><span>
+                <br />
+                Bandaragama</span
+              >
+            </div>
+            <div>
+              <span>Nationality:</span
+              ><span>
+                <br />
+                Sri Lankan</span
+              >
+            </div>
+            <div>
+              <span>TelephoneNo:</span
+              ><span>
+                <br />
+                071-5946623</span
+              >
+            </div>
+          </div>
+          <div class="educationInfo">
+            <br />
+            <h2 class="second-heading">
+              Education <span class="infos"> INFOS</span>
+            </h2>
+            <br />
+            <div>
+              <span>Education: </span> <br />
+              <span class="educationtype"></span>
+            </div>
+          </div>
 
+          <br /><br />
+          <!--Skil Section-->
+          <h2 class="second-heading">My <span class="infos"> Skils</span></h2>
+          <br /><br />
+
+          <div class="container">
+            <div class="card">
+              <div class="percent" style="--clr: #1f51ff; --num: 85">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <h2>85 <span>%</span></h2>
+                  <p>HTML</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="percent" style="--clr: #1f51ff; --num: 20">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <h2>20 <span>%</span></h2>
+                  <p>CSS</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="percent" style="--clr: #1f51ff; --num: 60">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <h2>60 <span>%</span></h2>
+                  <p>JAVA</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="percent" style="--clr: #1f51ff; --num: 70">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <h2>70 <span>%</span></h2>
+                  <p>My sql</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!---End Skil Section-->
+        </div>
+      </div>
+    </section>
 
     <!--services section design-->
     <section class="servicese" id="services">
-        <h2 class="heading">Our <span class="main-span-color">Services</span></h2>
+      <h2 class="heading">Our <span class="main-span-color">Services</span></h2>
 
-        <div class="services-container">
-            <div class="services-box">
-                <i class='bx bx-code-alt'></i>
-                <h3>Web Development</h3>
-                <p> Let's create well- intergrated website built with cutting-edge technology. </p>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            Let's create well- intergrated website built with cutting-edge
+            technology.
+          </p>
 
-                <!--  <a href="#" class="btn">Read More</a>-->
-            </div>
-
-
-            <div class="services-box">
-                <i class='bx bxs-paint'></i>
-                <h3>Graphic Design</h3>
-                <p> Let's create Your Dream Design With Us.</p>
-
-                <!-- <a href="#" class="btn">Read More</a>-->
-            </div>
-
-
-
-            <div class="services-box">
-                <i class='bx bx-bar-chart-alt'></i>
-                <h3>Digital Marketing</h3>
-                <p>we design to maximize your brand to growth. </p>
-
-                <!--  <a href="#" class="btn">Read More</a> -->
-            </div>
-
-
-
+          <!--  <a href="#" class="btn">Read More</a>-->
         </div>
 
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Design</h3>
+          <p>Let's create Your Dream Design With Us.</p>
+
+          <!-- <a href="#" class="btn">Read More</a>-->
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Digital Marketing</h3>
+          <p>we design to maximize your brand to growth.</p>
+
+          <!--  <a href="#" class="btn">Read More</a> -->
+        </div>
+      </div>
     </section>
     <!--Portfolio  section design -->
     <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span class="main-span-color">Projects</span></h2>
+      <h2 class="heading">
+        Latest <span class="main-span-color">Projects</span>
+      </h2>
 
-        <div class="portfolio-container">
+      <div class="portfolio-container animate__slideInRight">
+        <div class="portfolio-box">
+          <img
+            src="assets/images/sooriya bakery.png"
+            alt="sooriya bakery.png"
+            width="350"
+            height="350"
+          />
+          <div class="portfoio-layer">
+            <h4>Bakery Management System</h4>
+            <p>Bakery Management System Developed to the Sooriya Bakers.</p>
+            <a href="https://github.com/Nisala-Chamodya/-Sooriya-Bakers.git"
+              ><i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
 
-            <div class="portfolio-box">
-                <img src="assets/images/sooriya bakery.png" alt="sooriya bakery.png" width="350" height="350">
-                <div class="portfoio-layer">
-                    <h4>Bakery Management System</h4>
-                    <p>Bakery Management System Developed to the Sooriya Bakers.</p>
-                    <a href="#"><i class='bx bx-link-external'></i> </a>
-                </div>
-            </div>
+        <div class="portfolio-box">
+          <img
+            src="assets/images/hostel.png "
+            alt="hostel.png"
+            width="350"
+            height="350"
+          />
+          <div class="portfoio-layer">
+            <h4>Hostel Management System</h4>
+            <p>Hostel Management System Developed for the D24 Hostels.</p>
+            <a
+              href="https://github.com/Nisala-Chamodya/Hostel-Management-System.git"
+              ><i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
 
-            <div class="portfolio-box">
-                <img src="assets/images/hostel.png " alt="hostel.png" width="350" height="350">
-                <div class="portfoio-layer">
-                    <h4>Hostel Management System</h4>
-                    <p>Hostel Management System Developed for the D24 Hostels.</p>
-                    <a href="#"><i class='bx bx-link-external'></i> </a>
-                </div>
-            </div>
+        <div class="portfolio-box">
+          <img
+            src="assets/images/htmlcssjs.png"
+            alt="portfoio3.jpg"
+            width="350"
+            height="350"
+          />
+          <div class="portfoio-layer">
+            <h4>Web Design</h4>
+            <p>HTML , CSS , Assignments.</p>
+            <a
+              href="https://docs.google.com/document/d/1Ag3l0HzlS4Ce0BxOYJ4xUvrB_H5hVSRcmIEtc8cyXlI/edit?usp=sharing"
+              ><i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
 
-
-            <div class="portfolio-box">
-                <img src="assets/images/htmlcssjs.png" alt="portfoio3.jpg" width="350" height="350">
-                <div class="portfoio-layer">
-                    <h4>Web Design</h4>
-                    <p>HTML , CSS , Assignments.</p>
-                    <a href="#"><i class='bx bx-link-external'></i> </a>
-                </div>
-            </div>
-
-            <!--
+        <!--
             <div class="portfolio-box">
                 <img src="assets/images/portfolio4 .png" alt="portfoio4.jpg" width="350" height="350">
                 <div class="portfoio-layer">
@@ -253,56 +327,44 @@
                     <a href="#"><i class='bx bx-link-external'></i> </a>
                 </div>
             </div>-->
-
-
-
-
-        </div>
-
-
-
-
+      </div>
     </section>
     <!--Contact Section Design -->
     <section class="contact" id="contact">
-        <h2 class="heading">Contact <span class="main-span-color">Me!</span></h2>
+      <h2 class="heading">Contact <span class="main-span-color">Me!</span></h2>
 
-        <form action="#">
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
 
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
-            </div>
+        <div class="input-box">
+          <input type="tel" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
 
-            <div class="input-box">
-                <input type="tel" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
-            </div>
-
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-
-
-
-        </form>
-
-
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
     </section>
     <!--Footer section design -->
     <footer class="footer">
+      <div class="footer-text">
+        <p>
+          Copyright &copy; 2023 by <strong>Blacky</strong> All Rights Reserved.
+        </p>
+      </div>
 
-        <div class="footer-text">
-            <p>Copyright &copy; 2023 by <strong>Blacky</strong> All Rights Reserved. </p>
-        </div>
-
-        <div class="footer-iconTop">
-            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-
-        </div>
-
-
-
-
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
     </footer>
 
     <!--scroll reveal-->
@@ -310,8 +372,9 @@
 
     <!--Typed js-->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!--j query -->
+    <script src="assets/js/jquery-3.6.4.min.js"></script>
     <!--custom js-->
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>

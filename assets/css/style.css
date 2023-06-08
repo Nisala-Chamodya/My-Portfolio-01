@@ -13,8 +13,8 @@
 }
 
 :root {
-  --bg-color: black;
-  --second-bg-colour: black;
+  --bg-color: #131313;
+  --second-bg-colour: #131313;
   --text-color: #fff;
   --main-color: #1f51ff;
   --infos-color: #1f51ff;
@@ -1006,5 +1006,8 @@ section {
 
   .content {
     margin-left: 60px;
+  }
+  .about-img {
+    display: none;
   }
 }
