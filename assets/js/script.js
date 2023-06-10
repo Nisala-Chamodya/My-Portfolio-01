@@ -48,7 +48,7 @@ ScrollReveal({
 ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
 
 ScrollReveal().reveal(
-  ".home-img, .services-container, .portfolio-box, .contact form",
+  ".home-img, .services-container, .portfolio-box, .contact form ,#btnShowMore",
   { origin: "bottom" }
 );
 

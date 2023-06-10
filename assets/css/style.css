@@ -650,6 +650,7 @@ section {
 }
 
 .portfolio {
+  position: relative;
   background: var(--second-bg-colour);
 }
 
@@ -725,6 +726,19 @@ section {
 .portfoio-layer a i {
   font-size: 2rem;
   color: var(--second-bg-colour);
+}
+/*new portfolio*/
+#btnShowMore {
+  margin-top: 2rem;
+  cursor: pointer;
+  width: 160px;
+  height: 36px;
+  position: absolute;
+  top: 0;
+  bottom: -500;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
 
 .contact {
@@ -926,6 +940,9 @@ section {
   }
 
   /*new*/
+  #btnShowMore {
+    bottom: -900px;
+  }
   .personalInfo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -946,6 +963,9 @@ section {
   .portfolio-container {
     grid-template-columns: 1fr;
   }
+  #btnShowMore {
+    bottom: -1250px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -958,6 +978,9 @@ section {
   }
 
   /*new*/
+  #btnShowMore {
+    bottom: -1250px;
+  }
   .personalInfo {
     display: grid;
     grid-template-columns: 1fr;
