@@ -673,7 +673,11 @@ section {
   overflow: hidden;
   display: flex;
 }
+.portfolio-box {
+  width: 300px;
 
+  border-radius: 50px;
+}
 .portfolio-box img {
   width: 100%;
   transition: 0.5s ease;
@@ -732,10 +736,11 @@ section {
   margin-top: 2rem;
   cursor: pointer;
   width: 160px;
-  height: 36px;
+  height: 40px;
+
   position: absolute;
   top: 0;
-  bottom: -500;
+  bottom: -550;
   right: 0;
   left: 0;
   margin: auto;
@@ -877,6 +882,8 @@ section {
 @media (max-width: 768px) {
   #menu-icon {
     display: block;
+    margin: 50px;
+    margin-top: 20px;
   }
 
   .navbar {
@@ -941,7 +948,7 @@ section {
 
   /*new*/
   #btnShowMore {
-    bottom: -900px;
+    bottom: -980px;
   }
   .personalInfo {
     display: grid;
@@ -964,7 +971,7 @@ section {
     grid-template-columns: 1fr;
   }
   #btnShowMore {
-    bottom: -1250px;
+    bottom: -1300px;
   }
 }
 
@@ -979,7 +986,7 @@ section {
 
   /*new*/
   #btnShowMore {
-    bottom: -1250px;
+    bottom: -1300px;
   }
   .personalInfo {
     display: grid;
@@ -1032,5 +1039,13 @@ section {
   }
   .about-img {
     display: none;
+  }
+  #btnShowMore {
+    bottom: -1400px;
+  }
+  @media (max-width: 262px) {
+    .contactBtn {
+      margin-top: 10px;
+    }
   }
 }
