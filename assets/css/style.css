@@ -13,11 +13,11 @@
 }
 
 :root {
-  --bg-color: #131313;
-  --second-bg-colour: #131313;
+  --bg-color: #0B0B0B;
+  --second-bg-colour: #0B0B0B;
   --text-color: #fff;
-  --main-color: #1f51ff;
-  --infos-color: #1f51ff;
+  --main-color: #05FF00;
+  --infos-color: #05FF00;
 }
 
 html {
@@ -362,6 +362,12 @@ section {
     opacity: 1;
   }
 }
+/*new*/
+.skill_icon{
+  color: var(--main-color);
+  width: 150px;
+}
+
 
 .dot {
   position: absolute;
